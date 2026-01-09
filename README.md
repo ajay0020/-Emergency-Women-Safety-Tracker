@@ -61,4 +61,26 @@ All while remaining **silent and discreet**.
 ---
 
 ## 🏗 System Architecture
+Mobile App (React Native)
+├── Background Services
+├── SOS Triggers
+├── GPS & Audio Recorder
+└── API Communication
+
+↓
+
+Backend Server (Node.js + Express)
+├── Authentication (JWT)
+├── SOS Management
+├── Notification Engine
+├── Evidence Storage
+└── Admin Logs
+
+↓
+
+Database (MongoDB)
+├── Users
+├── Trusted Contacts
+├── SOS Events
+└── Location History
 .....
