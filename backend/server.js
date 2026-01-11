@@ -11,3 +11,5 @@ connectDB();
 app.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);
 });
+const sosRoutes = require("./routes/sosRoutes");
+app.use("/api/sos", sosRoutes);
